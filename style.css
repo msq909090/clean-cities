@@ -1,0 +1,145 @@
+.ends {
+    background-color:#405d27;
+    color:white !important;
+}
+
+a
+{
+color: white !important;
+}
+
+p {
+letter-spacing:0.1rem;
+font-family: "Quicksand", sans-serif;
+}
+
+li
+{
+    letter-spacing:0.1rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    }
+span{
+    letter-spacing:0.15rem;;
+    
+}
+    
+  
+  
+  body {
+    background-color: #b7d4b6 !important;
+    
+  }
+  
+  .bubble {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    .circle {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 50%;
+      background: rgba(12, 12, 12, 0.02);
+      &:nth-of-type(1) {
+        width: 200px;
+        height: 180px;
+        animation: rt 6s infinite linear;
+        box-shadow: 0 0 1px 0 blueviolet,
+                    inset 0 0 10px 0 blueviolet;
+      }
+      &:nth-of-type(2) {
+        width: 180px;
+        height: 200px;
+        animation: rt 10s infinite linear;
+        box-shadow: 0 0 1px 0 darkviolet,
+                    inset 0 0 10px 0 darkviolet;
+      }
+      &:nth-of-type(3) {
+        width: 210px;
+        height: 190px;
+        animation: rt 5s infinite linear;
+        box-shadow: 0 0 1px 0 darkmagenta,
+                    inset 0 0 10px 0 darkmagenta;
+      }
+      &:nth-of-type(4) {
+        width: 190px;
+        height: 210px;
+        animation: rt 15s infinite linear;
+        box-shadow: 0 0 1px 0 magenta,
+                    inset 0 0 10px 0 magenta;
+      }
+    }
+  }
+  
+  @keyframes rt {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  
+  .nav-item:hover {
+    background-color: rgb(98, 163, 109);
+  }
+
+  .top {
+    background-image: url("./topcity.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+color:white;
+    width:100%
+  }
+
+  h1 {
+    font-family: "Texturina", serif;
+    letter-spacing: 0.15rem;
+  }
+
+  h2 {
+    letter-spacing: 0.1rem;;
+  }
+
+  .txt {
+    color: rgb(218, 228, 184);
+  }
+
+  .prob {
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .links a {
+    margin:2rem;
+    color:blue !important;
+  }
+  
+  .transparent {
+    background-color: #88928880;
+    padding:10px;
+    border-radius: 10%;
+  }
+
+  .posmid {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headbar {
+    position: fixed;
+   
+    width:100%;
+  }
